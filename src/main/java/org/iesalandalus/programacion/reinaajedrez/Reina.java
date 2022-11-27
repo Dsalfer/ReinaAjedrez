@@ -41,8 +41,7 @@ public class Reina {
 	private void setPosicion(Posicion posicion) {
 		this.posicion = posicion;
 	}
-	//rehacer push
-
+	
 	public void mover(Direccion direccion, int pasos) throws OperationNotSupportedException {
 
 		if (direccion == null) {
