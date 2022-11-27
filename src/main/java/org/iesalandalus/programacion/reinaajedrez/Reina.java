@@ -87,12 +87,12 @@ public class Reina {
 			setPosicion(new Posicion(nuevaFila, nuevaColumna));
 
 		} catch (IllegalArgumentException e) {
-			throw new OperationNotSupportedException("ERROR: Movimiento no válido (se sale del tablero).");
+			throw new OperationNotSupportedException("Se sale del tablero.");
 		}
 	}
 
 	public String toString() {
-		return "color=" + color + ", posicion=(" + getPosicion().toString() + ")";
+		return "el color es" + color + ", y su posición es" + getPosicion().toString();
 	}
 
 }
