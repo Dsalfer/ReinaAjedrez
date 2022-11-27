@@ -41,9 +41,9 @@ public class Reina {
 	private void setPosicion(Posicion posicion) {
 		this.posicion = posicion;
 	}
-	
+	//rehacer push
 
-	public mover(Direccion direccion, int pasos) throws OperationNotSupportedException {
+	public void mover(Direccion direccion, int pasos) throws OperationNotSupportedException {
 
 		if (direccion == null) {
 			throw new NullPointerException("L dirección debe ser válida");
